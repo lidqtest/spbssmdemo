@@ -119,6 +119,7 @@ public class StudentController {
 	@RequestMapping("/search")
 	public PageResult search(@RequestBody(required=false) Student student, int page, int rows  ){
 		System.out.println("学生名称："+student.getName()+"  学生年龄："+student.getAge());
+		System.out.println("查找");
 		return studentService.findPage(student, page, rows);		
 	}
 	/**
