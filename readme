@@ -1,0 +1,7 @@
+SpringBoot + Spring + SpringMVC + MyBatis + Maven 框架构建
+1.建表：
+CREATE TABLE `student` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
